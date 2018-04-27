@@ -1,0 +1,147 @@
+.App {
+  text-align: left;
+}
+
+.App ul {
+  margin-top: 1px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#main {
+  background-color: lightblue;
+}
+
+#container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  margin: 100px 0 0 100px;
+}
+
+.input-box {
+  width: 250px;
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+
+#continent-search {
+  width: 200px;
+  float: left;
+  margin-left: 50px;
+}
+
+#country-search {
+  float: left;
+  width: 200px;
+  margin-left: 50px;
+}
+#country-search input[type="checkbox"] {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#selected-flags {
+  width: 200px;
+  text-align: center;
+}
+
+
+#clear-btn {
+  width: 100px;
+  height: 40px;
+  background-color: #42cbf4;
+  color: white;
+  font: Courier New;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 50px;
+}
+
+li {
+  list-style-type: none;
+  height: 30px;
+  border: solid 0.5px lightgrey;
+  background-color: white;
+  font-size: 17px;
+  text-transform: capitalize;
+  width: 250px;
+}
+
+li:hover { 
+  background-color: #42cbf4; 
+  color: #fff;
+}
+
+ul {
+  width: 100%;
+  padding: 0px
+}
+
+.para-text {
+  margin-left: 45px;
+  width: 90%;
+  text-align: center;
+  color: grey;
+  font-family: Courier New;
+}
+
+#selected-continent {
+  margin-top: 30px;
+  font-family: Courier New;
+  width: 260px;
+}
+
+#selected-continent p {
+  width: 100%;
+  margin-left: 5px;
+}
+
+.country-input {
+  position: relative;
+  padding: 0;
+  margin:0;
+}
+
+.flags-display {
+  padding: 5px;
+  float: left;
+  font-size: 3.5em;
+
+}
+
+.data-list {
+  padding-left: 2px;
+  vertical-align: middle;
+}
+
+h2 {
+  text-align: center;
+}
